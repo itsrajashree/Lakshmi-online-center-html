@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshmi E-Services Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0b1b30;
+      color: #fff;
+    }
+
+    header {
+      background-color: #091428;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cfd8dc;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .service-box {
+      background-color: #12263a;
+      padding: 1rem 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      width: 220px;
+      text-align: center;
+      transition: 0.3s;
+      animation: blink 2s infinite;
+    }
+
+    .service-box:hover {
+      transform: scale(1.05);
+      background-color: #1f3a5a;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.8; }
+    }
+
+    footer {
+      background-color: #091428;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .contact-section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .contact-section a {
+      color: #4fc3f7;
+      text-decoration: underline;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lakshmi E-Services Center</h1>
+    <p>“All your online needs in one place”</p>
+  </header>
+
+  <section class="services">
+    <div class="service-box">🆔 Aadhaar Services</div>
+    <div class="service-box">🪪 PAN Card</div>
+    <div class="service-box">🛂 Passport Services</div>
+    <div class="service-box">📱 Mobile Recharge</div>
+    <div class="service-box">💡 Electricity Bill</div>
+    <div class="service-box">🖨️ Print & Xerox</div>
+    <div class="service-box">📚 Education Support</div>
+    <div class="service-box">📄 Document Handling</div>
+    <div class="service-box">💼 Job Assistance</div>
+    <div class="service-box">💳 Digital Payments</div>
+  </section>
+
+  <section class="contact-section">
+    <h2>📍 Find Us & Contact</h2>
+    <p><a href="https://maps.app.goo.gl/MkPjKATHC2LVctSM7" target="_blank">Click here to view location on Google Maps</a></p>
+  </section>
+
+  <a href="https://wa.me/918270487840" class="whatsapp-button" target="_blank">💬</a>
+
+  <footer>
+    &copy; 2025 Lakshmi E-Services Center. All rights reserved.
+  </footer>
+</body>
+</html>
